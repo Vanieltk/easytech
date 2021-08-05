@@ -3,15 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 17px;
-}
-.header{
-    position:relative;
-    width:100% ;
-    background-color: royalblue;
-    padding: 7px 0; 
 }
 
 .header_menu{
@@ -21,7 +12,7 @@ p{
 
 .header_menu ul li{
     display: inline-block;
-    margin-top: 35px;
+
     margin-left: 25px;
 }
 
@@ -34,45 +25,5 @@ p{
 
 .header_menu ul li a:hover{
     color: teal;
-}
 
-.introducao{
-    width: 100%;
-    height: 400px;
-    background: url("../img/1.jpeg")no-repeat center;
-    background-size: cover;
-    text-align: center;
-}
-
-.introducao h1{
-    width: 100%;
-    font-size: 40px;
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-top: 90px;
-}
-
-.caixa{
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.caixa p{
-    font-style: italic;
-    margin-top: 25px;
-
-}
-.caixa p:before, .caixa p:after{
-    content: "";
-    display: block;
-    width: 80px;
-    height: 4px;
-    background-color: white;
-    margin: 10px auto;
-}
-.caixa a{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
 }
