@@ -14,6 +14,23 @@ p{
     padding: 7px 0; 
 }
 
+.subtitulo{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 8px;
+}
+
+.subtitulo:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:black;
+    margin: 10px auto;
+}
 .header_menu{
     text-align: right;
     
@@ -75,4 +92,48 @@ p{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+}
+
+.servicos{
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.servicos_lista li{
+    background-color: black;
+}
+
+.servicos_lista h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 8px; 
+    
+}
+.servicos_lista p{
+    padding: 12px;
+
+}
+.servicos_icones{
+    background-color: royalblue;
+    padding: 20px;
+}
+.btn{
+    border: 3px solid royalblue;
+    padding: 10px 30px;
+    color:royalblue ;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.call{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    clear: both;
+}
+.call p{
+    margin-bottom: 20px;
 }
